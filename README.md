@@ -10,3 +10,6 @@
   a、git remote add origin https://github.com/androiddeveloper007/WenwenPractise.git			# Sets the new remote
   b、git remote -v		# Verifies the new remote URL
   c、git push -u origin main		# Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+4、git fetch使用：git fetch origin main:temp
+  git merge temp
